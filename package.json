@@ -1,5 +1,5 @@
 {
-  "name": "midi",
+  "name": "midi-keyboard",
   "version": "0.3.0",
   "description": "Library to assist in creating HTML5 MIDI apps.",
   "author": "Michael Deal",
@@ -13,11 +13,21 @@
     "type": "git",
     "url": "git://github.com/mudcube/MIDI.js.git"
   },
-  "main": "./build/MIDI.min.js",
+  "main": "./js/main.js",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-concat": "~0.1.3",
     "grunt-contrib-uglify": "~0.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/mudcube/MIDI.js/issues"
+  },
+  "homepage": "https://github.com/mudcube/MIDI.js#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
